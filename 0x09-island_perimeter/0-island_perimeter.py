@@ -2,15 +2,18 @@
 """
 0-island_perimeter
 """
+
+
 def island_perimeter(grid):
     """
     Calculate the perimeter of the island in a grid.
-    
+
     Args:
-    grid (list of list of int): 2D list representing the grid where 1's are land and 0's are water.
-    
+        grid (list of list of int): 2D list representing the grid where 1's
+                                    are land and 0's are water.
+
     Returns:
-    int: The perimeter of the island.
+        int: The perimeter of the island.
     """
     if not grid or not grid[0]:
         return 0
